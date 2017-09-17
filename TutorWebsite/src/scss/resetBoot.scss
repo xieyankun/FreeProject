@@ -1,0 +1,21 @@
+.main{
+    .item{
+        img{
+            width: 100%;
+        }
+    }
+    .nav > li > a{
+        padding: 10px;
+    }
+    .media-list{
+        margin-top: 12px;
+        img{
+            width: 96px;
+            border-radius: 8px;
+            height: 108px;
+        }
+    }
+    h4{
+        margin-top: 0px;
+    }
+}

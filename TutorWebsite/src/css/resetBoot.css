@@ -1,0 +1,16 @@
+.main .item img {
+  width: 100%; }
+
+.main .nav > li > a {
+  padding: 10px; }
+
+.main .media-list {
+  margin-top: 12px; }
+
+.main .media-list img {
+  width: 96px;
+  border-radius: 8px;
+  height: 108px; }
+
+.main h4 {
+  margin-top: 0px; }
