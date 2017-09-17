@@ -8,5 +8,6 @@ gulp.task('sass', function(){
 	return gulp.src([path.srcPath.scss + '/**/*.scss',  path.srcPath.css + '/**/*.css'])
 		.pipe(sass())
         .on('error', handleErrors)
+        .pipe(gulp.dest(path.srcPath.css))
         .pipe(gulp.dest(path.distPath.css))
 });
