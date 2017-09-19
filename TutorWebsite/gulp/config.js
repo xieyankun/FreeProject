@@ -3,7 +3,8 @@ module.exports = {
     srcPath: {
         html    : './src',
         css     : './src/css',
-        scss    : './src/scss',
+        sass    : './src/sass',
+        less    : './src/less',
         script  : './src/js',
         image   : './src/images'
     },

@@ -1,0 +1,27 @@
+.home{
+    .sidebar{
+        background-color: #FFF;
+    }
+    .media{
+        background: #fff;
+        padding: 12px 8px;
+    }
+    .media-body{
+        position: relative;
+    }
+    .tag{
+        position: absolute;
+        bottom: 0px;
+    }
+    .tutor-class{
+        dt {
+            font-size: 18px;
+            padding: 0 18px;
+            line-height: 32px;
+            padding-top: 8px;
+        }
+        dd {
+            padding: 8px 30px 10px 18px;
+        }
+    }
+}

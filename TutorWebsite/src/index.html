@@ -9,190 +9,192 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="https://www.zhipin.com/v2/web/geek/images/logo-x.png">
-                </a>
+<div class="home">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="https://www.zhipin.com/v2/web/geek/images/logo-x.png">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">学员 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">教员</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="搜索教员、科目">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">登陆</a></li>
+                        <li><a href="#">注册</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">学员 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">教员</a></li>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div class="main container">
+        <div class="col-sm-3 sidebar">
+            <div class="tutor-class">
+                <dl class="">
+                    <dt><i class="icon-arrow-right"></i>文化课</dt>         
+                    <dd>
+                        <a href="" class="label label-info">小学</a>
+                        <a href="" class="label label-info">初中</a>
+                        <a href="" class="label label-info">高中</a>
+                    </dd>
+                </dl>
+                <dl class="">
+                    <dt><i class="icon-arrow-right"></i>艺体</dt>         
+                    <dd>
+                        <a href="" class="label label-info">艺术</a>
+                        <a href="" class="label label-info">体育</a>
+                        <a href="" class="label label-info">钢琴</a>
+                    </dd>
+                </dl>
+                <dl class="">
+                    <dt><i class="icon-arrow-right"></i>英语</dt>         
+                    <dd>
+                        <a href="" class="label label-info">托福</a>
+                        <a href="" class="label label-info">雅思</a>
+                        <a href="" class="label label-info">剑桥</a>
+                        <a href="" class="label label-info">新概念</a>
+                    </dd>
+                </dl>
+                <dl class="">
+                    <dt><i class="icon-arrow-right"></i>小语种</dt>         
+                    <dd>
+                        <a href="" class="label label-info">日语</a>
+                        <a href="" class="label label-info">德语</a>
+                        <a href="" class="label label-info">法语</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="notice">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#home" aria-controls="home" role="tab" data-toggle="tab">家长必读</a>
+                    </li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">教员必读</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">新闻公告</a></li>
                 </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="搜索教员、科目">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+                    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9 main">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/pic01.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h3>大标题</h3>
+                    <p>内容。。。内容。。。内容。。。内容。。。</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/pic01.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h3>大标题</h3>
+                    <p>内容。。。内容。。。内容。。。内容。。。</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/pic01.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h3>大标题</h3>
+                    <p>内容。。。内容。。。内容。。。内容。。。</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <ul class="media-list">
+              <li class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images/pic07.jpg">
+                  </a>
+                </div>
+                <div class="media-body">
+                    <div class="media-heading clearfix">
+                        <h4 class="pull-left">赵丽颖（123456）</h4>
+                        <h4 class="pull-right">合肥工业大学，信息管理系</h4>
                     </div>
-                    <button type="submit" class="btn btn-default">搜索</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">登陆</a></li>
-                    <li><a href="#">注册</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-</header>
-<div class="main container">
-    <div class="col-sm-3 sidebar">
-        <div class="tutor-class">
-            <dl class="">
-                <dt><i class="icon-arrow-right"></i>文化课</dt>         
-                <dd>
-                    <a href="" class="label label-info">小学</a>
-                    <a href="" class="label label-info">初中</a>
-                    <a href="" class="label label-info">高中</a>
-                </dd>
-            </dl>
-            <dl class="">
-                <dt><i class="icon-arrow-right"></i>艺体</dt>         
-                <dd>
-                    <a href="" class="label label-info">艺术</a>
-                    <a href="" class="label label-info">体育</a>
-                    <a href="" class="label label-info">钢琴</a>
-                </dd>
-            </dl>
-            <dl class="">
-                <dt><i class="icon-arrow-right"></i>英语</dt>         
-                <dd>
-                    <a href="" class="label label-info">托福</a>
-                    <a href="" class="label label-info">雅思</a>
-                    <a href="" class="label label-info">剑桥</a>
-                    <a href="" class="label label-info">新概念</a>
-                </dd>
-            </dl>
-            <dl class="">
-                <dt><i class="icon-arrow-right"></i>小语种</dt>         
-                <dd>
-                    <a href="" class="label label-info">日语</a>
-                    <a href="" class="label label-info">德语</a>
-                    <a href="" class="label label-info">法语</a>
-                </dd>
-            </dl>
-        </div>
-        <div class="notice">
-            <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
-                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">家长必读</a>
-                </li>
-                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">教员必读</a></li>
-                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">新闻公告</a></li>
+                    <div class="intrl">
+                        <p>英语四六级、计算机二级、三等奖学金</p>
+                    </div>
+                    <div class="tag">
+                        <span class="label label-default">初中全科</span>
+                        <span class="label label-primary">高一物理</span>
+                        <span class="label label-success">高一化学</span>
+                        <span class="label label-info">高二物理</span>
+                        <span class="label label-warning">高二化学</span>
+                        <span class="label label-danger">...</span>
+                    </div>
+                </div>
+              </li>
+              <li class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images/pic07.jpg">
+                  </a>
+                </div>
+                <div class="media-body">
+                    <div class="media-heading clearfix">
+                        <h4 class="pull-left">赵丽颖（123456）</h4>
+                        <h4 class="pull-right">合肥工业大学，信息管理系</h4>
+                    </div>
+                    <div class="tag">
+                        <span class="label label-default">初中全科</span>
+                        <span class="label label-primary">高一物理</span>
+                        <span class="label label-success">高一化学</span>
+                        <span class="label label-info">高二物理</span>
+                        <span class="label label-warning">高二化学</span>
+                        <span class="label label-danger">...</span>
+                    </div>
+                </div>
+              </li>
             </ul>
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="home">...</div>
-                <div role="tabpanel" class="tab-pane" id="profile">...</div>
-                <div role="tabpanel" class="tab-pane" id="messages">...</div>
-            </div>
         </div>
     </div>
-    <div class="col-sm-9 main">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="images/pic01.jpg" alt="...">
-              <div class="carousel-caption">
-                <h3>大标题</h3>
-                <p>内容。。。内容。。。内容。。。内容。。。</p>
-              </div>
-            </div>
-            <div class="item">
-              <img src="images/pic01.jpg" alt="...">
-              <div class="carousel-caption">
-                <h3>大标题</h3>
-                <p>内容。。。内容。。。内容。。。内容。。。</p>
-              </div>
-            </div>
-            <div class="item">
-              <img src="images/pic01.jpg" alt="...">
-              <div class="carousel-caption">
-                <h3>大标题</h3>
-                <p>内容。。。内容。。。内容。。。内容。。。</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-        <ul class="media-list">
-          <li class="media">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object" src="images/pic07.jpg">
-              </a>
-            </div>
-            <div class="media-body">
-                <div class="media-heading clearfix">
-                    <h4 class="pull-left">赵丽颖（123456）</h4>
-                    <h4 class="pull-right">合肥工业大学，信息管理系</h4>
-                </div>
-                <div class="intrl">
-                    <p>英语四六级、计算机二级、三等奖学金</p>
-                </div>
-                <div class="tag">
-                    <span class="label label-default">初中全科</span>
-                    <span class="label label-primary">高一物理</span>
-                    <span class="label label-success">高一化学</span>
-                    <span class="label label-info">高二物理</span>
-                    <span class="label label-warning">高二化学</span>
-                    <span class="label label-danger">...</span>
-                </div>
-            </div>
-          </li>
-          <li class="media">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object" src="images/pic07.jpg">
-              </a>
-            </div>
-            <div class="media-body">
-                <div class="media-heading clearfix">
-                    <h4 class="pull-left">赵丽颖（123456）</h4>
-                    <h4 class="pull-right">合肥工业大学，信息管理系</h4>
-                </div>
-                <div class="tag">
-                    <span class="label label-default">初中全科</span>
-                    <span class="label label-primary">高一物理</span>
-                    <span class="label label-success">高一化学</span>
-                    <span class="label label-info">高二物理</span>
-                    <span class="label label-warning">高二化学</span>
-                    <span class="label label-danger">...</span>
-                </div>
-            </div>
-          </li>
+    <footer>
+        <ul class="list-inline text-center">
+          <li><a href="#" target="_blank">京ICP备11008151号</a></li>
+          <li>京公网安备11010802014853</li>
         </ul>
-    </div>
+    </footer>
 </div>
-
-<footer>
-    <ul class="list-inline text-center">
-      <li><a href="#" target="_blank">京ICP备11008151号</a></li>
-      <li>京公网安备11010802014853</li>
-    </ul>
-</footer>
 <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="css/bootstrap/js/bootstrap.min.js"></script>
 </body>

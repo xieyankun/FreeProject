@@ -1,0 +1,85 @@
+.detail{
+    .navbar{
+        margin-bottom: 0px !important;
+    }
+    .inner{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    .teach-banner{
+        background: #444c60;
+        height: 240px;
+        color: #fff;
+    }
+    .avator{
+        position: absolute;
+        height: 240px;
+        img{
+            width: 108px;
+            height: 140px;
+            margin: 50px 24px;
+        }
+    }
+    .info{
+        position: relative;
+        height: 240px;
+        margin-left: 140px;
+        padding: 24px;
+        font-size: 16px;
+        .name{
+            font-size: 24px;
+            color: #fff;
+            font-weight: 400;
+            padding: 18px 0 15px;
+            .badge{
+                font-size: 14px;
+                vertical-align: middle;
+                margin-top: -3px;
+            }
+        }
+    }
+    .de-detail {
+        position: relative;
+        border-right: 1px #f5f7f9 solid;
+        margin-right: 360px;
+        padding-bottom: 45px;
+        min-height: 813px;
+        margin-top: 12px;
+    }
+    .de-sec{
+        background-color: #FFF;
+        padding: 0 12px 12px;
+        margin-bottom: 12px;
+        h3{
+            font-weight: 400;
+            color: #424a5e;
+        }
+        h3:after{
+            content: '';
+            width: 50px;
+            height: 2px;
+            background-color: #5dd5c8;
+            display: block;
+        }
+    }
+    .de-sider {
+        background-color: #FFF;
+        float: right;
+        width: 330px;
+        padding-bottom: 40px;
+        h3 {
+            color: #424a5e;
+            font-size: 18px;
+            font-weight: 400;
+            padding: 8px 12px;
+        }
+        .more {
+            float: right;
+            font-size: 14px;
+            color: #9fa3b0;
+            background-position: right -1581px;
+            padding-right: 24px;
+            margin-right: -10px;
+        }
+    }
+}
