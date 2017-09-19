@@ -89,7 +89,7 @@ body {
   position: relative;
   height: 240px;
   margin-left: 140px;
-  padding: 24px;
+  padding: 32px 24px;
   font-size: 16px; }
   .detail .info .name {
     font-size: 24px;
@@ -110,6 +110,7 @@ body {
   margin-top: 12px; }
 
 .detail .de-sec {
+  position: relative;
   background-color: #FFF;
   padding: 0 12px 12px;
   margin-bottom: 12px; }
@@ -122,6 +123,10 @@ body {
     height: 2px;
     background-color: #5dd5c8;
     display: block; }
+  .detail .de-sec .talk {
+    position: absolute;
+    right: 24px;
+    top: 14px; }
 
 .detail .de-sider {
   background-color: #FFF;
