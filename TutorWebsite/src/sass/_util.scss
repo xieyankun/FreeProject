@@ -20,3 +20,37 @@
 .de-sider .more{
     background: url('../images/in.png') no-repeat;
 }
+.inner{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.condition-box dl:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.media {
+    background: #fff;
+    padding: 12px 8px;
+    img {
+        width: 96px;
+        border-radius: 8px;
+        height: 108px;
+    }
+    .media-body{
+        position: relative;
+    }
+    .media-list{
+    }
+    .tag {
+        position: absolute;
+        bottom: 0px;
+    }
+}
+
+
+
+

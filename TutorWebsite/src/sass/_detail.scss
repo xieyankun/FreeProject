@@ -2,10 +2,6 @@
     .navbar{
         margin-bottom: 0px !important;
     }
-    .inner{
-        max-width: 1170px;
-        margin: 0 auto;
-    }
     .teach-banner{
         background: #444c60;
         height: 240px;
@@ -72,12 +68,13 @@
         background-color: #FFF;
         float: right;
         width: 330px;
-        padding-bottom: 40px;
         h3 {
             color: #424a5e;
             font-size: 18px;
             font-weight: 400;
-            padding: 8px 12px;
+            margin: 0;
+            padding: 12px;
+            border-bottom: 1px solid #d8dbde;
         }
         .more {
             float: right;
@@ -87,6 +84,24 @@
             padding-right: 24px;
             margin-right: -10px;
         }
-        // .alike-avator
+        .alike-content{
+            position: relative;
+            padding: 0 12px;
+            padding-top: 12px;
+            border-bottom: 1px solid #d8dbde;
+        }
+        .alike-avator{
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            right: 12px;
+            margin-top: 14px;
+            border-radius: 8px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
 }
