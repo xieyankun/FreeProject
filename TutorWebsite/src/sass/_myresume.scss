@@ -1,0 +1,13 @@
+.myresume{
+    .checkbox + .checkbox, .radio + .radio {
+        margin-top: 10px;
+    }
+    input[type=checkbox], input[type=radio]{
+        margin: 8px 0 0;
+        margin-left: -18px;
+    }
+    .checkbox label{
+        padding: 4px 20px;
+    }
+}
+

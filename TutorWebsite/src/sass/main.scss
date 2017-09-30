@@ -1,11 +1,14 @@
 // Base
 @import 'base/typography';
-@import 'resetBoot';
+@import 'base/reset';
 
 @import 'util';
-@import 'home';
-@import 'detail';
-@import 'query';
+@import 'button';
 
-@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/nav';
+
+@import 'home';
+@import 'list';
+
 
