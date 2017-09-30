@@ -94,6 +94,9 @@ body {
   background: #e0e0e0;
   margin: 0 10px; }
 
+.clear {
+  overflow: hidden; }
+
 .badge {
   display: inline-block;
   background: #fa6a43;
@@ -211,6 +214,61 @@ header {
       color: #414a60;
       border-right: 1px solid #f2f2f5;
       margin-right: 8px; }
+
+/* Footer */
+footer {
+  width: 100%;
+  background: #a8acb7;
+  padding: 20px 0 25px;
+  margin-top: 45px;
+  position: relative;
+  z-index: 23; }
+  footer .copyright {
+    color: #eeeff3;
+    font-size: 13px; }
+    footer .copyright .link-beian {
+      color: #fff;
+      display: inline-block;
+      margin-left: 10px; }
+  footer .footer-logo {
+    padding: 12px 0;
+    width: 200px; }
+    footer .footer-logo img {
+      width: 100%; }
+  footer p {
+    color: #eeeff3;
+    padding: 10px 0 15px;
+    font-size: 13px; }
+  footer .footer-social {
+    float: right; }
+    footer .footer-social p {
+      text-align: right; }
+    footer .footer-social a {
+      -webkit-transition: none;
+      transition: none;
+      color: #fff; }
+  footer .icon-app, footer .icon-weibo, footer .icon-weixin {
+    font-size: 36px; }
+  footer .app, footer .weibo, footer .weixin {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 23px;
+    vertical-align: top; }
+  footer .weixin {
+    background-position: 10px -254px;
+    position: relative; }
+  footer .qrcode-weixin {
+    display: none;
+    position: absolute;
+    right: -25px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    background: #fff; }
+  footer .weixin:hover .qrcode-weixin {
+    display: block; }
 
 .nav {
   font-size: 0;

@@ -1,8 +1,76 @@
 /* Footer */
-footer{
+
+footer {
     width: 100%;
-    height: 48px;
-    line-height: 48px;
-    background-color: #999;
-    margin-top: 12px;
+    background: #a8acb7;
+    padding: 20px 0 25px;
+    margin-top: 45px;
+    position: relative;
+    z-index: 23;
+    
+    .copyright {
+        color: #eeeff3;
+        font-size: 13px;
+
+        .link-beian {
+            color: #fff;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+
+    .footer-logo{
+        padding: 12px 0;
+        width: 200px;
+        img{
+            width: 100%;
+        }
+    }
+    p {
+        color: #eeeff3;
+        padding: 10px 0 15px;
+        font-size: 13px;
+    }
+    .footer-social {
+        float: right;
+        p {
+            text-align: right;
+        }
+        a{
+            -webkit-transition: none;
+            transition: none;
+            color: #fff;
+        }
+    }
+    .icon-app, .icon-weibo, .icon-weixin {
+        font-size: 36px;
+    }
+    .app, .weibo, .weixin {
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        margin-left: 23px;
+        vertical-align: top;
+        img{
+            // display: none;
+        }
+    }
+    .weixin {
+        background-position: 10px -254px;
+        position: relative;
+    }
+    .qrcode-weixin {
+        display: none;
+        position: absolute;
+        right: -25px;
+        bottom: 50px;
+        width: 100px;
+        height: 100px;
+        background: #fff;
+    }
+    .weixin:hover .qrcode-weixin {
+        display: block;
+    }
+
 }
