@@ -36,6 +36,17 @@ body {
 .clear {
   overflow: hidden; }
 
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+.radio-checked {
+  border: 1px solid #18c3b1 !important;
+  color: #18c3b1 !important;
+  box-shadow: 1px 2px 3px #d7f4f1; }
+
 .badge {
   display: inline-block;
   background: #fa6a43;

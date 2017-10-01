@@ -11,10 +11,11 @@ body{
 
     .sign-wrap {
         width: 410px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -268px 0 0 -205px;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        margin: 24px auto;
     }
     .dropdown-select {
         display: inline-block;
@@ -39,7 +40,7 @@ body{
         }
 
         input{
-            width: 256px;
+            width: 268px;
             min-width: 0;
             border-color: #e3e7ed;
             vertical-align: middle;
@@ -76,4 +77,117 @@ body{
             }
         }
     }
+
+    .radio-list{
+        width: 324px;
+        margin-top: 16px;
+
+        label {
+            width: 150px;
+            min-width: 150px;
+            height: 32px;
+            line-height: 32px;
+            font-size: 14px;
+            color: #9fa3b0;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            border: 1px solid #e3e7ed;
+        }
+    }
 }
+
+.base-info{
+    .title{
+        font-size: 20px !important;
+    }
+    form{
+        padding-top: 6px !important;
+    }
+    .sign-form {
+        padding: 24px 42px !important;
+    }
+    .sign-form{
+        padding-top: 16px !important;
+    }
+    .code{
+        position: relative;
+        .btn{
+            position: absolute;
+            top: -1px;
+            right: -1px;
+            min-width: auto;
+            height: 32px;
+            font-size: 12px;
+            line-height: 31px;
+        }
+    }
+    .form-btn{
+        text-align: right;
+        margin-top: 24px !important;
+        .btn{
+            width: auto !important;
+        }
+    }
+    .dropdown-menu-open {
+        z-index: 10;
+        color: #9fa3b0;
+    }
+    .dropdown-menu {
+        display: none;
+        position: relative;
+        height: 0;
+        margin-right: 2px;
+        color: #9fa3b0;
+        font-size: 12px;
+        z-index: 10;
+
+        ul {
+            position: absolute;
+            top: 11px;
+            left: -15px;
+            width: 322px;
+            border: 1px #e3e7ed solid;
+            border-top: 0;
+            background-color: #fff;
+            overflow: auto;
+            max-height: 208px;
+            -webkit-overflow-scrolling: touch;
+            overflow-scrolling: touch;
+        }
+        li {
+            line-height: 42px;
+            padding: 0 15px;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: #f3f5fa;
+            color: #434a5e;
+        }
+    }
+}
+
+.name-wrap{
+    overflow: hidden;
+    .name{
+        width: 150px;
+        border: 1px solid #e3e7ed;
+        padding: 10px 14px;
+        margin-top: 28px;
+        input{
+            width: 120px;
+        }
+    }
+    .upload{
+        width: 84px;
+        height: 108px;
+        background-color: #e3e7ed;
+    }
+}
+
+
+
+
+
+
+
