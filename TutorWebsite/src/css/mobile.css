@@ -1,0 +1,175 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* custom */
+a {
+  text-decoration: none;
+  -webkit-backface-visibility: hidden;
+  color: #414a60; }
+
+li {
+  list-style: none; }
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; }
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px; }
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px; }
+
+html, body {
+  width: 100%; }
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent; }
+
+#main, #wrap {
+  position: relative; }
+
+#wrap {
+  min-height: 100%; }
+
+.home-banner {
+  width: 100%;
+  height: 196px;
+  display: block;
+  background: url(../images/home-bg.png) center center no-repeat;
+  color: #fff;
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.btn {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  border: 1px #5dd5c8 solid;
+  font-size: 14px;
+  color: #fff;
+  background-color: #62D5C8;
+  text-align: center;
+  cursor: pointer; }
+
+.home-search {
+  float: none;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  top: 138px; }
+  .home-search .ipt-wrap {
+    margin: 0 15px;
+    padding-right: 70px;
+    background: #fff;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
+  .home-search .btn-search {
+    background-color: #fff;
+    color: #5bd4c7;
+    font-size: 14px;
+    position: absolute;
+    border: none;
+    width: 60px;
+    right: 18px;
+    background: 0 0; }
+  .home-search .ipt-search {
+    width: 100%;
+    height: 37px;
+    line-height: 32px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    color: #AEAEAE;
+    text-align: left;
+    padding-left: 20px;
+    background: #fff; }
+
+.main .category dd, .main .category dt {
+  margin: 0 15px;
+  color: #525252;
+  font-size: 18px; }
+
+.main .category dl {
+  padding-top: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #F5F8F9; }
+
+.main .category dt {
+  margin-bottom: 18px;
+  color: #404855;
+  font-size: 13px;
+  overflow: hidden; }
+  .main .category dt img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    vertical-align: middle;
+    float: left; }
+  .main .category dt h4 {
+    font-size: 15px;
+    margin-top: 14px; }
+
+.main .category dd a {
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #7e8793;
+  line-height: 13px;
+  background: #F5F8F9;
+  border-radius: 100px;
+  margin: 0 8px 8px 0;
+  display: inline-block; }
+
+.main .category .sub-name {
+  margin: 0 48px 0 65px; }

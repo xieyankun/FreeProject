@@ -1,15 +1,13 @@
 // Base
 @import 'base/typography';
-@import 'base/reset';
+@import 'resetBoot';
 
 @import 'util';
-@import 'button';
-
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/nav';
-
 @import 'home';
-@import 'list';
+@import 'detail';
+@import 'query';
+@import 'signin';
+@import 'myresume';
 
+@import 'layout/footer';
 
