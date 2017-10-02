@@ -24,7 +24,7 @@ body{
     }
     .sign-form {
         width: 324px;
-        padding: 35px 43px 0;
+        padding: 35px 43px;
         background: #fff;
         border-radius: 8px;
         box-shadow: 1px 2px 15px rgba(0,0,0,.3);
@@ -45,6 +45,13 @@ body{
             border-color: #e3e7ed;
             vertical-align: middle;
             font-size: 12px;
+        }
+        textarea{
+            min-width: 100%;
+            border: none;
+            resize:none;
+            height: 100px;
+            text-align: justify;
         }
         .iconfont{
             color: #c9cacc;
