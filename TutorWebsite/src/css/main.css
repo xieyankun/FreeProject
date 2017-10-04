@@ -148,11 +148,14 @@ body {
   overflow: hidden;
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0px 0px 4px #ababab; }
+  box-shadow: 0px 0px 4px #ababab;
+  position: fixed;
+  right: 12px; }
   .home .home-right .r-header {
     padding-bottom: 12px;
     border-bottom: 1px solid #ececec; }
   .home .home-right .teacher, .home .home-right .student {
+    display: block;
     width: 100%;
     height: 48px;
     line-height: 48px;
@@ -164,8 +167,7 @@ body {
 
 .home .home-main {
   margin-right: 228px;
-  margin-left: 308px;
-  background: #ccc; }
+  margin-left: 308px; }
   .home .home-main .swiper-container {
     width: 100%;
     height: 400px;
@@ -178,6 +180,50 @@ body {
     /* Center slide text vertically */ }
     .home .home-main .swiper-slide img {
       width: 100%; }
+
+.home .wechat {
+  margin-top: 24px; }
+  .home .wechat .img-wrap {
+    text-align: center;
+    padding: 24px 0 12px; }
+
+.home .tips {
+  margin-top: 12px; }
+  .home .tips .slideTxtBox {
+    width: 300px;
+    text-align: left; }
+    .home .tips .slideTxtBox .hd {
+      height: 30px;
+      line-height: 30px;
+      background: #5dd5c8;
+      position: relative; }
+      .home .tips .slideTxtBox .hd ul {
+        float: left;
+        position: absolute;
+        left: 0px;
+        height: 32px; }
+      .home .tips .slideTxtBox .hd li {
+        width: 100px;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        box-sizing: border-box;
+        color: #fff; }
+      .home .tips .slideTxtBox .hd li.on {
+        height: 30px;
+        background: #fff;
+        color: #5dd5c8; }
+    .home .tips .slideTxtBox .bd {
+      padding: 8px; }
+      .home .tips .slideTxtBox .bd ul {
+        padding: 15px;
+        zoom: 1; }
+      .home .tips .slideTxtBox .bd li {
+        height: 24px;
+        line-height: 24px; }
+      .home .tips .slideTxtBox .bd li .date {
+        float: right;
+        color: #999; }
 
 .detail .navbar {
   margin-bottom: 0px !important; }
