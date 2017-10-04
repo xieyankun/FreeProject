@@ -354,6 +354,8 @@ body {
     border-radius: 15px;
     line-height: 22px;
     color: #fc6c38; }
+  .query .condition-box dd a:hover {
+    color: #fc6c38; }
 
 .query .query-box {
   margin-top: 20px; }

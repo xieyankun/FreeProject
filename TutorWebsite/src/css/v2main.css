@@ -654,3 +654,68 @@ body {
 
 .search-box {
   background-color: red; }
+
+.query .search-box {
+  width: 60%;
+  margin: 0 auto; }
+
+.query .condition-box {
+  background: #fff;
+  margin-top: 40px; }
+  .query .condition-box dl {
+    border-bottom: 1px #f8f9fc solid;
+    margin: 0 40px; }
+  .query .condition-box dt {
+    float: left;
+    width: 50px;
+    line-height: 52px;
+    font-size: 16px;
+    color: #4a4160; }
+  .query .condition-box dd {
+    margin-left: 50px;
+    padding-top: 12px;
+    margin-bottom: 12px; }
+  .query .condition-box a.disabled {
+    color: #414a60;
+    border: none;
+    cursor: default; }
+  .query .condition-box dd a {
+    display: inline-block;
+    background: #fff;
+    padding: 0 8px;
+    border: 1px #fff solid;
+    margin: 0 5px; }
+  .query .condition-box dd a.selected {
+    border: 1px #dadde2 solid;
+    border-radius: 15px;
+    line-height: 22px;
+    color: #fc6c38; }
+  .query .condition-box dd a:hover {
+    color: #fc6c38; }
+
+.query .query-box {
+  margin-top: 20px; }
+
+.query .q-sider {
+  float: right;
+  width: 270px; }
+
+.query .q-list {
+  background: #fff;
+  margin-right: 300px; }
+
+.query .media-list {
+  margin-bottom: 0; }
+
+.query .media {
+  border-bottom: 1px #f2f2f5 solid;
+  margin-top: 0; }
+
+.query .promotion-img:first-child {
+  margin-top: 0px; }
+
+.query .promotion-img {
+  width: 100%;
+  margin-top: 20px; }
+  .query .promotion-img img {
+    width: 100%; }
