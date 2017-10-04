@@ -2,23 +2,24 @@
     .navbar{
         margin-bottom: 0px !important;
     }
-    .teach-banner{
+    .banner{
         background: #444c60;
-        height: 240px;
+        height: 260px;
         color: #fff;
     }
     .avator{
         position: absolute;
-        height: 240px;
+        height: 260px;
         img{
             width: 108px;
             height: 140px;
-            margin: 50px 24px;
+            margin: 60px 24px;
         }
     }
     .info{
+        box-sizing: border-box;
         position: relative;
-        height: 240px;
+        height: 260px;
         margin-left: 140px;
         padding: 32px 24px;
         font-size: 16px;
@@ -31,6 +32,17 @@
                 font-size: 14px;
                 vertical-align: middle;
                 margin-top: -3px;
+            }
+        }
+        p{
+            padding: 12px 0;
+        }
+        .tag-warp{
+            margin-top: 12px;
+            span{
+                border: 1px solid #eee;
+                padding: 0 8px;
+                border-radius: 12px;
             }
         }
     }
@@ -62,6 +74,9 @@
             position: absolute;
             right: 24px;
             top: 14px;
+            height: 24px;
+            line-height: 24px;
+            border-radius: 16px;
         }
     }
     .de-sider {
@@ -83,12 +98,24 @@
             background-position: right -1581px;
             padding-right: 24px;
             margin-right: -10px;
+            color: #5dd5c8;
+            font-size: 12px;
+            margin-top: 4px;
         }
         .alike-content{
             position: relative;
             padding: 0 12px;
             padding-top: 12px;
             border-bottom: 1px solid #d8dbde;
+        }
+        .alike-info{
+            h4{
+                margin-bottom: 12px;
+            }
+            p{
+                line-height: 1.7;
+                margin-bottom: 8px;
+            }
         }
         .alike-avator{
             position: absolute;
