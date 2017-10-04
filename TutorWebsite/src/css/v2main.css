@@ -651,3 +651,6 @@ body {
     width: 84px;
     height: 108px;
     background-color: #e3e7ed; }
+
+.search-box {
+  background-color: red; }
