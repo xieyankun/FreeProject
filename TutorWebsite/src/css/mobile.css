@@ -296,3 +296,15 @@ body {
       color: #8892ac;
       margin-right: 14px;
       display: inline-block; }
+
+.m-detail {
+  text-align: center;
+  width: 100%;
+  color: #5bd4c7;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .m-detail h1 {
+    font-size: 18px;
+    margin-bottom: 36px; }
